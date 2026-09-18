@@ -4551,8 +4551,6 @@ function Library:ReapplyGlass()
     Library.GlassTransparency = Library.GlassTransparency or 0.55
     Library:SetGlass(Library.GlassEnabled, Library.GlassTransparency)
 end
-
-()
     Library.GlassEnabled = Library.GlassEnabled ~= false
     Library.GlassTransparency = Library.GlassTransparency or 0.55
     Library:SetGlass(Library.GlassEnabled, Library.GlassTransparency)
